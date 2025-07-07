@@ -1,0 +1,122 @@
+[
+  {
+    "event_id": "superhumanspiracicaba2025-07-01-05-03-43",
+    "Event": "Super Humans - Piracicaba - 2025",
+    "Date": "11/07/2025",
+    "Slug": "super-humans-piracicaba-2025",
+    "Location": "Rua do Porto",
+    "State": "SP",
+    "Distances": "5K, 10K",
+    "Price": "Não informado",
+    "source": "o2",
+    "Inscricoes": "https://www.runningland.com.br/super-humans-piracicaba-2025"
+  },
+  {
+    "event_id": "bluerunsaopaulo20252025-07-01-05-03-43",
+    "Event": "Blue Run - São Paulo 2025",
+    "Date": "18/07/2025",
+    "Slug": "blue-run-sao-paulo-2025",
+    "Location": "Parque da Independência",
+    "State": "SP",
+    "Distances": "5K, 10K",
+    "Price": "Não informado",
+    "source": "o2",
+    "Inscricoes": "https://www.runningland.com.br/blue-run-s-o-paulo-2025"
+  },
+  {
+    "event_id": "urbanwalksaopaulo20252025-07-01-05-03-43",
+    "Event": "Urban Walk - São Paulo - 2025",
+    "Date": "25/07/2025",
+    "Slug": "urban-walk-sao-paulo-2025",
+    "Location": "Parque Villa Lobos - Espaço VL14",
+    "State": "SP",
+    "Distances": "5K, Corrida+Skate, Caminhada3km",
+    "Price": "Não informado",
+    "source": "o2",
+    "Inscricoes": "https://www.runningland.com.br/urban-walk-s-o-paulo-2025"
+  },
+  {
+    "event_id": "ecorunsorocaba2025-07-01-05-03-43",
+    "Event": "Eco Run - Sorocaba",
+    "Date": "01/08/2025",
+    "Slug": "eco-run-sorocaba",
+    "Location": "Av. Dom Aguirre -  6200",
+    "State": "SP",
+    "Distances": "5K, 10K",
+    "Price": "Não informado",
+    "source": "o2",
+    "Inscricoes": "https://www.runningland.com.br/eco-run-sorocaba-etapa-1"
+  },
+  {
+    "event_id": "newbalance15ksaopaulo2025-07-01-05-03-43",
+    "Event": "New Balance 15k São Paulo 2025",
+    "Date": "08/08/2025",
+    "Slug": "new-balance-15k-sao-paulo-2025",
+    "Location": "Parque do Povo",
+    "State": "SP",
+    "Distances": "15K, 7, 5k",
+    "Price": "Não informado",
+    "source": "o2",
+    "Inscricoes": "https://www.runningland.com.br/new-balance-2025"
+  },
+  {
+    "event_id": "39841",
+    "Event": "Chevrolet Golden Run 2025 - Edição 100 anos",
+    "Date": "2025-08-17",
+    "Slug": "chevrolet-golden-run-2025-edicao-100-anos",
+    "Location": "General Motors do Brasil | Portão 01 (Av. Goiás, 1805, São Caetano do Sul, SP, 09550-900)",
+    "State": "SP",
+    "Distances": "Caminhada 3km, Corrida 5Km, Corrida 10Km",
+    "Price": "Não informado",
+    "source": "ativo",
+    "Inscricoes": "https://pay.ativo.com/evento/39841?utm_source=calendario&utm_medium=ativo"
+  },
+  {
+    "event_id": "39792",
+    "Event": "Circuito Banco do Brasil 2025 - Salvador",
+    "Date": "2025-07-06",
+    "Slug": "circuito-banco-do-brasil-2025-salvador",
+    "Location": "Praça de Piatã (Av. Octávio Mangabeira, 11988 - Piatã Salvador - BA)",
+    "State": "BA",
+    "Distances": "1k, 5k, 10k",
+    "Price": "Não informado",
+    "source": "ativo",
+    "Inscricoes": "https://pay.ativo.com/evento/39792?utm_source=calendario&utm_medium=ativo"
+  },
+  {
+    "event_id": "39797",
+    "Event": "Circuito Banco do Brasil 2025 - Rio de Janeiro",
+    "Date": "2025-07-20",
+    "Slug": "circuito-banco-do-brasil-2025-rio-de-janeiro",
+    "Location": "Praia de Copacabana (Posto 2)",
+    "State": "RJ",
+    "Distances": "1k, 5k, 10k",
+    "Price": "Não informado",
+    "source": "ativo",
+    "Inscricoes": "https://pay.ativo.com/evento/39797?utm_source=calendario&utm_medium=ativo"
+  },
+  {
+    "event_id": "39791",
+    "Event": "Circuito Banco do Brasil 2025 - São Luís",
+    "Date": "2025-08-03",
+    "Slug": "circuito-banco-do-brasil-2025-sao-luis",
+    "Location": "São Luis Shopping (Av. Prof. Carlos Cunha, 1000 Jaracaty, São Luís - MA)",
+    "State": "MA",
+    "Distances": "1k, 5k, 10k",
+    "Price": "Não informado",
+    "source": "ativo",
+    "Inscricoes": "https://pay.ativo.com/evento/39791?utm_source=calendario&utm_medium=ativo"
+  },
+  {
+    "event_id": "39772",
+    "Event": "Corrida POUPEX 2025",
+    "Date": "2025-07-19",
+    "Slug": "corrida-poupex-2025",
+    "Location": "Praça dos Cristais - SMU, Brasília - DF, 70630-901.",
+    "State": "DF",
+    "Distances": "Corrida 5km, Corrida 10km",
+    "Price": "Não informado",
+    "source": "ativo",
+    "Inscricoes": "https://pay.ativo.com/evento/39772?utm_source=calendario&utm_medium=ativo"
+  }
+]

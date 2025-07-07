@@ -103,7 +103,6 @@ venv.bak/
 #config files
 config/
 .DS_Store
-*.json
 venv_running-agg/
 
 #data
