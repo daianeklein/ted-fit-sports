@@ -1,0 +1,43 @@
+<!-- event.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Detalhes do Evento</title>
+</head>
+<body>
+  <h1 id="event-title">Carregando...</h1>
+  <p id="event-date"></p>
+  <p id="event-state"></p>
+  <p id="event-location"></p>
+  <p id="event-distance"></p>
+
+  <p id="event-inscricoes"></p>
+  <a href="index.html">Voltar</a>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get("id");
+
+    fetch("events.json")
+      .then(response => response.json())
+      .then(events => {
+        const event = events.find(e => e.Slug === slug);
+
+        if (!event) {
+          document.body.innerHTML = "<p>Evento não encontrado.</p>";
+          return;
+        }
+
+        document.title = event.Event;
+        document.getElementById("event-title").textContent = event.Event;
+        document.getElementById("event-date").innerHTML = `<strong>Data:</strong> ${event.Date}`;
+        document.getElementById("event-state").innerHTML = `<strong>Estado:</strong> ${event.State}`;
+        document.getElementById("event-location").innerHTML = `<strong>Local:</strong> ${event.Location}`;
+        document.getElementById("event-distance").innerHTML = `<strong>Distâncias:</strong> ${event.Distances}`;
+        document.getElementById("event-inscricoes").innerHTML = `<strong>Se inscreva aqui:</strong> ${event.Inscricoes ?? 'Não informado'}`;
+
+      });
+  </script>
+</body>
+</html>

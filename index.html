@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Home</title>
+	<!--FAVICON-->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+	<!--CALENDAR-->
+	<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet" />
+	<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+	<!--META-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="Your description">
+	<meta name="keywords" content="Your keywords">
+	<meta name="author" content="Your name">
+	<!--CSS-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/camera.css">
+	<!--JS-->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/camera.min.js"></script>
+	<script>
+		jQuery(document).ready(function () {
+			jQuery('.camera_wrap').camera({
+				pagination: true,
+				navigation: false,
+				navigationHover: false,
+				loaderOpacity: '0',
+				fx: 'simpleFade',
+				height: '40.9%',
+				minHeight: '700px'
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<!--========================================================
+                         	HEADER
+	=========================================================-->
+	<header id="header">
+		<div class="header_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="left_side">
+							<a href="./" class="brand">
+								<div class="brand_logo">
+									<img src="img/logo.png" alt="logo">
+								</div>
+								<!-- <div class="wrapper">
+									<h1 class="brand_name">TedFit</h1>
+									<div class="brand_slogan">Eventos Esportivos</div>
+								</div> -->
+							</a>
+						</div>
+						<div class="right_side">
+							<ul class="list list-1">
+								<li>
+								<div class="icon">
+									<i class="fab fa-instagram"></i>
+								</div>
+								<div class="wrapper">
+									<a href="https://www.instagram.com/tedfit.sports/">instagram</p>
+								</div>
+								</li>
+
+								<li>
+								<div class="icon">
+									<i class="fa fa-envelope"></i>
+								</div>
+								<div class="wrapper">
+									Email
+								</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--========================================================
+                        SLIDER
+=========================================================-->
+	<div class="camera_block">
+		<div class="camera_wrap">
+			<div data-src="img/slide-1.jpg">
+				<div class="camera-caption">
+					<h2>Calendário de<br>Corridas</h2>
+					<a href="#calendar" class="default-btn btn btn-1"><span class="icon"><i class="fa fa-file-text-o"></i></span><span class="text">Confira o calendário de corridas</span></a>
+				</div>
+			</div>
+			<div data-src="img/slide-2.jpg">
+				<div class="camera-caption">
+					<h2>Treinos de corrida<br>personalizados</h2>
+					<a href="#calendar" class="default-btn btn btn-1"><span class="icon"><i class="fa fa-file-text-o"></i></span><span class="text">Confira o calendário de corridas</span></a>
+				</div>
+			</div>
+			<div data-src="img/slide-3.jpg">
+				<div class="camera-caption">
+					<h2>Não perca<br>Nenhum evento</h2>
+					<a href="#calendar" class="default-btn btn btn-1"><span class="icon"><i class="fa fa-file-text-o"></i></span><span class="text">Confira o calendário de corridas</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--========================================================
+                        	CONTENT
+	=========================================================-->
+	<!-- <div id="content">
+		<div class="block-1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+						<div class="thumb-pad-1">
+							<div class="thumbnail">
+								<img src="img/page1-img1.jpg" alt="photo">
+								<div class="caption">
+									<h3>Tênis & <br>Acessórios</h3>
+									<h5>dolore ipsum commete</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+						<div class="thumb-pad-1">
+							<div class="thumbnail">
+								<img src="img/page1-img2.jpg" alt="photo">
+								<div class="caption">
+									<h3>Planilha &<br>Treinos</h3>
+									<h5>dolore ipsum commete</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="thumb-pad-1">
+							<div class="thumbnail">
+								<img src="img/page1-img3.jpg" alt="photo">
+								<div class="caption">
+									<h3>Dietas &<br>Alimentação</h3>
+									<h5>dolore ipsum commete</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	<!--========================================================
+                        	CALENDAR
+	=========================================================-->
+	  <div id="calendar"></div>
+	<!--========================================================
+                        	FOOTER
+	=========================================================-->
+	<footer>
+		<div class="div container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="left_footer">
+						<a href="./" class="brand">
+							<div class="brand_logo">
+								<img src="img/logo.png" alt="logo">
+							</div>
+						</a>
+					</div>
+					<div class="right_footer">
+						<ul class="list social-list">
+							<li><a href="#"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a>
+							</li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a>
+							</li>
+						</ul>
+						<div class="footer_privacy"><span class="pr_brand">Sportlee</span> &copy; <span id="copyright-year"></span> |<a href="index-5.html" class="link email"> Privacy policy</a>
+						</div>
+						<!-- {%FOOTER_LINK} -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--JS-->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/tm-scripts.js"></script>
+	
+	<!-- Script do calendário -->
+  	<script src="script.js"></script>
+	<div id="event-modal" style="
+	display: none; position: fixed; z-index: 1000; top: 0; left: 0; width: 100%; height: 100%;
+	background-color: rgba(0,0,0,0.5); justify-content: center; align-items: center; font-family: 'Arial', sans-serif;">
+	
+	<div id="event-modal-content" style="
+		background-color: #fff; padding: 40px; border-radius: 14px; width: 85%; max-width: 540px;
+		position: relative; box-shadow: 0 6px 18px rgba(0,0,0,0.2);">
+		
+		<button id="modal-close-btn" style="
+		position: absolute; top: 10px; right: 10px; cursor: pointer; background: none; border: none; font-size: 24px;">✖️</button>
+		
+		<h2 id="modal-title" style="font-size: 28px; text-align: center; margin-bottom: 30px; color: #6a0dad;"></h2>
+		
+		<p id="modal-date" style="font-size: 18px; margin-bottom: 18px;">📅 <strong>Data:</strong> <span></span></p>
+		<p id="modal-state" style="font-size: 18px; margin-bottom: 18px;">📍 <strong>Estado:</strong> <span></span></p>
+		<p id="modal-location" style="font-size: 18px; margin-bottom: 18px;">📌 <strong>Local:</strong> <span></span></p>
+		<p id="modal-distance" style="font-size: 18px; margin-bottom: 18px;">🏃‍♂️ <strong>Distâncias:</strong> <span></span></p>
+		<!-- <p id="modal-price" style="font-size: 18px; margin-bottom: 24px;">💰 <strong>Preço:</strong> <span></span></p> -->
+		<p id="modal-inscricoes" style="font-size: 18px; margin-bottom: 24px;"> 🔗 <strong>Inscrições:</strong> <span></span></p>
+
+		<button id="modal-return-btn" style="
+		position: absolute; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #6a0dad; color: white;
+		border: none; border-radius: 8px; cursor: pointer; font-size: 16px;">Voltar</button>
+	</div>
+</body>
+
+</html>
